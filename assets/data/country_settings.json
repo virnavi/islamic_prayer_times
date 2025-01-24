@@ -1,0 +1,5117 @@
+{
+    "data": [
+        {
+            "id": "af",
+            "method": {
+                "default": "Karachi",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "al",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "dz",
+            "method": {
+                "default": "Algeria",
+                "options": [
+                    "Algeria",
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ao",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ai",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ag",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ar",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "am",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "aw",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "au",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "at",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "az",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "Karachi",
+                    "Egypt",
+                    "MWL",
+                    "ISNA"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bs",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bh",
+            "method": {
+                "default": "Makkah",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "Makkah",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bd",
+            "method": {
+                "default": "Karachi",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bb",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "by",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "be",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bz",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bj",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bt",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bo",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ba",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bw",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "br",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "vg",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bg",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bf",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "bi",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "kh",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "cm",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ca",
+            "method": {
+                "default": "ISNA",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ky",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "cf",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "td",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "cl",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "cn",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "co",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "cg",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "cr",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "hr",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "cu",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "cy",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "cz",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "cd",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "dk",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "dj",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "dm",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "do",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ec",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "eg",
+            "method": {
+                "default": "Egypt",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sv",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gq",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "er",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ee",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "et",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "fk",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "fj",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "fi",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "fr",
+            "method": {
+                "default": "France",
+                "options": [
+                    "France",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gf",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ga",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gm",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ge",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "de",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gh",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gi",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gr",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gd",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gt",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gn",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gw",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gy",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ht",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "hn",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "hk",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "hu",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "midnight",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "in",
+            "method": {
+                "default": "Karachi",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "one7thOfNight",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "id",
+            "method": {
+                "default": "Sihat/Kemenag",
+                "options": [
+                    "Sihat/Kemenag",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ir",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "iq",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ie",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "im",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "it",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "jm",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "jp",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "jo",
+            "method": {
+                "default": "Makkah",
+                "options": [
+                    "Makkah",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "kz",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ke",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "xk",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "kw",
+            "method": {
+                "default": "Makkah",
+                "options": [
+                    "Makkah",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "kg",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "lv",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "lb",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "lr",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ly",
+            "method": {
+                "default": "Egypt",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "lt",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "lu",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mg",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mw",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "my",
+            "method": {
+                "default": "JAKIM",
+                "options": [
+                    "JAKIM",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mv",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mt",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mq",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mr",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mu",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mx",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "md",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mc",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ms",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ma",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mz",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "mm",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "na",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "np",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "nl",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "nz",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ni",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ne",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ng",
+            "method": {
+                "default": "Egypt",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "kp",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "no",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "om",
+            "method": {
+                "default": "Makkah",
+                "options": [
+                    "Makkah",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "pk",
+            "method": {
+                "default": "Karachi",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ps",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "pa",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "pg",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "py",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "pe",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ph",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "pl",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "pt",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "pr",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "qa",
+            "method": {
+                "default": "Makkah",
+                "options": [
+                    "Makkah",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ro",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ru",
+            "method": {
+                "default": "Russia",
+                "options": [
+                    "Russia",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "rw",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "lc",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "vc",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sa",
+            "method": {
+                "default": "Makkah",
+                "options": [
+                    "Makkah",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sn",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sc",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sl",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sg",
+            "method": {
+                "default": "Singapore",
+                "options": [
+                    "Singapore",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sk",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "si",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sb",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "so",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "za",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "kr",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ss",
+            "method": {
+                "default": "Egypt",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "es",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "lk",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sd",
+            "method": {
+                "default": "Egypt",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sr",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sz",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "se",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ch",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "sy",
+            "method": {
+                "default": "Makkah",
+                "options": [
+                    "Makkah",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "tw",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "tj",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "tz",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "th",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "tg",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "tt",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "tn",
+            "method": {
+                "default": "Tunisia",
+                "options": [
+                    "Tunisia",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "tr",
+            "method": {
+                "default": "Turkey",
+                "options": [
+                    "Turkey",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "tm",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "tc",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ug",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "gb",
+            "method": {
+                "default": "ISNA",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "hanafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ua",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ae",
+            "method": {
+                "default": "Makkah",
+                "options": [
+                    "Makkah",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "vi",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "uy",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "us",
+            "method": {
+                "default": "ISNA",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "angleBased",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "uz",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ve",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "vn",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "ye",
+            "method": {
+                "default": "Makkah",
+                "options": [
+                    "Makkah",
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "zm",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        },
+        {
+            "id": "zw",
+            "method": {
+                "default": "MWL",
+                "options": [
+                    "MWL",
+                    "Egypt",
+                    "ISNA",
+                    "Karachi"
+                ]
+            },
+            "latitude": {
+                "default": "none",
+                "options": [
+                    "none",
+                    "angleBased",
+                    "midnight",
+                    "one7thOfNight"
+                ]
+            },
+            "asrMethod": {
+                "default": "shafi",
+                "options": [
+                    "shafi",
+                    "hanafi"
+                ]
+            }
+        }
+    ]
+}
