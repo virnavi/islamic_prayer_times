@@ -415,7 +415,7 @@
                 ]
             },
             "asrMethod": {
-                "default": "shafi",
+                "default": "hanafi",
                 "options": [
                     "shafi",
                     "hanafi"

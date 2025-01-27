@@ -65,7 +65,7 @@ class SunCalc {
   }
 
   // Sun position for a given date and latitude/longitude
-  static Map<String, double> _getPosition(
+  static Map<String, double> getSunPosition(
       DateTime date, double lat, double lng) {
     double lw = rad * -lng;
     double phi = rad * lat;

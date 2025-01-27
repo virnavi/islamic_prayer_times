@@ -11,6 +11,7 @@ import 'package:flutter/services.dart';
 import 'package:islamic_prayer_times/src/models/models.dart';
 import 'package:prayers_times/prayers_times.dart' as pt;
 
+import '../celestial/models/lat_lng.dart';
 import '../celestial/time_table.dart';
 import '../constants.dart';
 
@@ -19,5 +20,7 @@ part 'asr_methods.dart';
 part 'calculation_method.dart';
 part 'country_settings.dart';
 part 'latitude.dart';
+part 'moon_position.dart';
 part 'selectable_option.dart';
+part 'sun_position.dart';
 part 'prayer_times.dart';
