@@ -93,7 +93,7 @@ class PrayerTimes {
     }
     final ishaStart = prayerTimes.ishaStartTime ?? empty;
 
-    var fajrEnd = timetable.dawn;
+    var fajrEnd = timetable.sunrise.from;
     if (prayerTimes.fajrStartTime != null &&
         prayerTimes.fajrEndTime!.isBefore(fajrEnd)) {
       fajrEnd = prayerTimes.fajrEndTime!;
