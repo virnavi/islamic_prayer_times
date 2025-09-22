@@ -8,6 +8,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -31,28 +32,39 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  late Future<ipt.PrayerTimes> prayerTimes;
+  late Future<ipt.SalahTimes> prayerTimes;
+  late ipt.SunTimeTable sunTimeTable;
   final formatter = DateFormat('HH:mm');
 
   void initState() {
     super.initState();
     prayerTimes = calc();
-  }
-
-  Future<ipt.PrayerTimes> calc() async {
-    final ctSettings = (await ipt.CountrySetting.getByCountryCode('bd'));
-    final config = ipt.PrayerTimeCalculationConfig(
-      asrMethod: ctSettings.asrMethod.defaultSelected,
-      calculationMethod: ctSettings.method.defaultSelected,
-      latitude: ipt.Latitude.none().id,
-      latLng: ipt.LatLng(23.777176, 90.399452),
+    sunTimeTable = ipt.SunTimeTable.calculate(
+      dateTime: DateTime.now().toUtc(),
+      latitude: 23.777176,
+      longitude: 90.399452,
     );
-    return await ipt.PrayerTimes.calculate(config);
   }
 
-  Widget buildRange(String title, ipt.DateTimeRange range) {
+  Future<ipt.SalahTimes> calc() async {
+    final countryConfig = (await ipt.CountryConfig.getByCountryCode('bd'));
+    var method = await ipt.SalahCalculationMethod.getCalculationMethod(
+        countryConfig.method.defaultValue);
+    method = method.copyWith(
+      madhab: countryConfig.asrMethod.defaultValue,
+    );
+    final config = await ipt.SalahTimes.calculate(
+      date: DateTime.now().toUtc(),
+      latitude: 23.777176,
+      longitude: 90.399452,
+      method: method,
+    );
+    return config;
+  }
+
+  Widget buildRange(String title, DateTimeRange range) {
     return Text(
-        '\n$title\n${formatter.format(range.from)}\n${formatter.format(range.to)}\n');
+        '\n$title\n${formatter.format(range.start.toLocal())}\n${formatter.format(range.end.toLocal())}\n');
   }
 
   Widget get gap => const SizedBox(width: 16);
@@ -83,22 +95,23 @@ class _MyHomePageState extends State<MyHomePage> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          buildRange('Fajr', data.fard.fajr),
+                          buildRange('Fajr', data.fajr),
                           gap,
-                          buildRange('Dhuhr', data.fard.dhuhr),
+                          buildRange('Dhuhr', data.dhuhr),
                           gap,
-                          buildRange('Asr', data.fard.asr),
+                          buildRange('Asr', data.asr),
                           gap,
-                          buildRange('Maghrib', data.fard.maghrib),
+                          buildRange('Maghrib', data.maghrib),
                           gap,
-                          buildRange('Isha', data.fard.isha),
-
+                          buildRange('Isha', data.isha),
                         ],
                       ),
                       const Text('\n\nSunnah Times'),
-                      buildRange('Tahajjud', data.sunnah.tahajjud),
+                      buildRange('Tahajjud', data.tahajjud),
+                      buildRange('awwabin', data.awwabin),
+                      buildRange('witr', data.witr),
                       const Text('\n\nRestricted Times'),
-                      Row(
+                      /*Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           buildRange('Sunrise', data.restricted.sunrise),
@@ -107,8 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           gap,
                           buildRange('Sunset', data.restricted.sunset),
                         ],
-                      ),
-
+                      ),*/
                     ],
                   ),
                 );

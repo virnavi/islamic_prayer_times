@@ -1,10 +1,8 @@
-
-
 import 'models/date_time_range.dart';
 import 'models/lat_lng.dart';
-import 'sun_calc.dart';
+import 'sun_calculator.dart';
 
-class TimeTable {
+class SunTimeTable {
   final DateTime solarNoon;
   final DateTime nadir;
   final DateTime dawn;
@@ -15,9 +13,9 @@ class TimeTable {
   final DateTimeRange sunrise;
   final DateTimeRange sunset;
   final DateTimeRange goldenHour;
-  final DateTimeRange moon;
+  //final DateTimeRange moon;
 
-  const TimeTable._({
+  const SunTimeTable._({
     required this.solarNoon,
     required this.nadir,
     required this.sunrise,
@@ -28,21 +26,25 @@ class TimeTable {
     required this.nauticalDusk,
     required this.night,
     required this.goldenHour,
-    required this.moon,
+  //  required this.moon,
   });
 
-  factory TimeTable.calculate(DateTime dateTime, LatLng latLng) {
-    final timetable = SunCalc.getTimes(
-      dateTime,
+  factory SunTimeTable.calculate(DateTime dateTime, LatLng latLng) {
+    final timetable = SunCalculator.getTimes(
+      dateTime.toUtc(),
       latLng.latitude,
       latLng.longitude,
     );
-    final moonTimetable =
-        SunCalc.getMoonTimes(DateTime.now(), latLng.latitude, latLng.longitude, inUTC: true);
+    final moonTimetable = SunCalculator.getMoonTimes(
+      DateTime.now(),
+      latLng.latitude,
+      latLng.longitude,
+      inUTC: true,
+    );
 
     final empty = DateTime.fromMillisecondsSinceEpoch(0);
     print(timetable);
-    return TimeTable._(
+    return SunTimeTable._(
       solarNoon: timetable['solarNoon'] ?? empty,
       nadir: timetable['nadir'] ?? empty,
       dawn: timetable['dawn'] ?? empty,
@@ -65,10 +67,10 @@ class TimeTable {
         from: timetable['sunsetStart'] ?? empty,
         to: timetable['sunset'] ?? empty,
       ),
-      moon: DateTimeRange(
+     /* moon: DateTimeRange(
         from: moonTimetable['rise'] ?? empty,
         to: moonTimetable['set'] ?? empty,
-      ),
+      ),*/
     );
   }
 }
