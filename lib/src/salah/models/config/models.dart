@@ -1,6 +1,9 @@
 
+import 'dart:convert';
+
+import 'package:flutter/services.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:myapp/src/enums/enums.dart';
+import '../../enums/enums.dart';
 
 part 'models.g.dart';
 part 'adjustments.dart';

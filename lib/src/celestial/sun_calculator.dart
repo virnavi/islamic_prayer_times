@@ -1,6 +1,6 @@
 import 'dart:math';
 
-class SunCalc {
+class SunCalculator {
   static const double rad = pi / 180;
   // Date/time constants and conversions
   static const double dayMs = 1000 * 60 * 60 * 24;

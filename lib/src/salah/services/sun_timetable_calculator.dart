@@ -1,6 +1,5 @@
+/*
 import 'dart:math';
-
-import 'package:myapp/src/models/sun_timetable.dart';
 
 class SunTimetableCalculator {
   static SunTimetable calculate(DateTime date, double latitude, double longitude) {
@@ -371,3 +370,4 @@ class SunCalc {
     return result;
   }
 }
+*/

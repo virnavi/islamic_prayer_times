@@ -1,11 +1,12 @@
 part of "models.dart";
-
 @JsonSerializable()
-class Method {
+class SalahCalculationMethod {
   @JsonKey(name: "id")
   final String id;
   @JsonKey(name: "method")
   final String method;
+  @JsonKey(name: "customized", defaultValue: false)
+  final bool customized;
   @JsonKey(name: "fajrAngle")
   final double fajrAngle;
   @JsonKey(name: "ishaAngle")
@@ -23,7 +24,7 @@ class Method {
   @JsonKey(name: "methodAdjustments")
   final Adjustments methodAdjustments;
 
-  Method({
+  SalahCalculationMethod({
     required this.id,
     required this.method,
     required this.fajrAngle,
@@ -34,9 +35,47 @@ class Method {
     required this.highLatitudeRule,
     required this.adjustments,
     required this.methodAdjustments,
+    required this.customized,
   });
 
-  factory Method.fromJson(Map<String, dynamic> json) => _$MethodFromJson(json);
+  factory SalahCalculationMethod.fromJson(Map<String, dynamic> json) =>
+      _$SalahCalculationMethodFromJson(json);
 
-  Map<String, dynamic> toJson() => _$MethodToJson(this);
+  Map<String, dynamic> toJson() => _$SalahCalculationMethodToJson(this);
+
+  static Future<SalahCalculationMethod> getCalculationMethod(String id) async {
+    final config = await SalahTimeConfig.get();
+    final method = config.methods.firstWhere(
+          (method) => method.id == id,
+      orElse: () => throw Exception('Calculation Method $id not found'),
+    );
+    return method;
+  }
+
+  SalahCalculationMethod copyWith({
+    String? id,
+    String? method,
+    double? fajrAngle,
+    double? ishaAngle,
+    int? ishaInterval,
+    double? maghribAngle,
+    Madhab? madhab,
+    HighLatitudeRule? highLatitudeRule,
+    Adjustments? adjustments,
+    Adjustments? methodAdjustments,
+  }) {
+    return SalahCalculationMethod(
+      id: id ?? this.id,
+      method: method ?? this.method,
+      customized: true,
+      fajrAngle: fajrAngle ?? this.fajrAngle,
+      ishaAngle: ishaAngle ?? this.ishaAngle,
+      ishaInterval: ishaInterval ?? this.ishaInterval,
+      maghribAngle: maghribAngle ?? this.maghribAngle,
+      madhab: madhab ?? this.madhab,
+      highLatitudeRule: highLatitudeRule ?? this.highLatitudeRule,
+      adjustments: adjustments ?? this.adjustments,
+      methodAdjustments: methodAdjustments ?? this.methodAdjustments,
+    );
+  }
 }

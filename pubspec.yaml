@@ -1,6 +1,6 @@
 name: islamic_prayer_times
-description: "A new Flutter project."
-version: 0.0.2
+description: "Islamic Prayer Times with Default Country Country Config"
+version: 0.1.0
 homepage:
 
 environment:
@@ -11,8 +11,6 @@ dependencies:
   flutter:
     sdk: flutter
   equatable: ^2.0.7
-  lat_lng_to_timezone: ^0.2.0
-  prayers_times: ^0.0.6
   json_annotation: ^4.9.0
 
 dev_dependencies:

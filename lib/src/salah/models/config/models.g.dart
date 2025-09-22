@@ -7,13 +7,13 @@ part of 'models.dart';
 // **************************************************************************
 
 Adjustments _$AdjustmentsFromJson(Map<String, dynamic> json) => Adjustments(
-  fajr: (json['fajr'] as num?)?.toInt() ?? 0,
-  sunrise: (json['sunrise'] as num?)?.toInt() ?? 0,
-  dhuhr: (json['dhuhr'] as num?)?.toInt() ?? 0,
-  asr: (json['asr'] as num?)?.toInt() ?? 0,
-  maghrib: (json['maghrib'] as num?)?.toInt() ?? 0,
-  isha: (json['isha'] as num?)?.toInt() ?? 0,
-);
+      fajr: (json['fajr'] as num?)?.toInt() ?? 0,
+      sunrise: (json['sunrise'] as num?)?.toInt() ?? 0,
+      dhuhr: (json['dhuhr'] as num?)?.toInt() ?? 0,
+      asr: (json['asr'] as num?)?.toInt() ?? 0,
+      maghrib: (json['maghrib'] as num?)?.toInt() ?? 0,
+      isha: (json['isha'] as num?)?.toInt() ?? 0,
+    );
 
 Map<String, dynamic> _$AdjustmentsToJson(Adjustments instance) =>
     <String, dynamic>{
@@ -31,12 +31,10 @@ CountryConfig _$CountryConfigFromJson(Map<String, dynamic> json) =>
           .map((e) => CountryInfo.fromJson(e as Map<String, dynamic>))
           .toList(),
       method: ConfigMethod.fromJson(json['method'] as Map<String, dynamic>),
-      latitude: ConfigLatitude.fromJson(
-        json['latitude'] as Map<String, dynamic>,
-      ),
-      asrMethod: ConfigAsrMethod.fromJson(
-        json['asrMethod'] as Map<String, dynamic>,
-      ),
+      latitude:
+          ConfigLatitude.fromJson(json['latitude'] as Map<String, dynamic>),
+      asrMethod:
+          ConfigAsrMethod.fromJson(json['asrMethod'] as Map<String, dynamic>),
     );
 
 Map<String, dynamic> _$CountryConfigToJson(CountryConfig instance) =>
@@ -70,9 +68,8 @@ const _$MadhabEnumMap = {
 ConfigLatitude _$ConfigLatitudeFromJson(Map<String, dynamic> json) =>
     ConfigLatitude(
       defaultValue: json['default'] as String,
-      options: (json['options'] as List<dynamic>)
-          .map((e) => e as String)
-          .toList(),
+      options:
+          (json['options'] as List<dynamic>).map((e) => e as String).toList(),
     );
 
 Map<String, dynamic> _$ConfigLatitudeToJson(ConfigLatitude instance) =>
@@ -82,9 +79,10 @@ Map<String, dynamic> _$ConfigLatitudeToJson(ConfigLatitude instance) =>
     };
 
 ConfigMethod _$ConfigMethodFromJson(Map<String, dynamic> json) => ConfigMethod(
-  defaultValue: json['default'] as String,
-  options: (json['options'] as List<dynamic>).map((e) => e as String).toList(),
-);
+      defaultValue: json['default'] as String,
+      options:
+          (json['options'] as List<dynamic>).map((e) => e as String).toList(),
+    );
 
 Map<String, dynamic> _$ConfigMethodToJson(ConfigMethod instance) =>
     <String, dynamic>{
@@ -93,54 +91,62 @@ Map<String, dynamic> _$ConfigMethodToJson(ConfigMethod instance) =>
     };
 
 HighLatitudeRuleModel _$HighLatitudeRuleModelFromJson(
-  Map<String, dynamic> json,
-) => HighLatitudeRuleModel(
-  id: json['id'] as String,
-  name: json['name'] as String,
-);
+        Map<String, dynamic> json) =>
+    HighLatitudeRuleModel(
+      id: json['id'] as String,
+      name: json['name'] as String,
+    );
 
 Map<String, dynamic> _$HighLatitudeRuleModelToJson(
-  HighLatitudeRuleModel instance,
-) => <String, dynamic>{'id': instance.id, 'name': instance.name};
+        HighLatitudeRuleModel instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+    };
 
-CountryInfo _$CountryInfoFromJson(Map<String, dynamic> json) =>
-    CountryInfo(id: json['id'] as String);
+CountryInfo _$CountryInfoFromJson(Map<String, dynamic> json) => CountryInfo(
+      id: json['id'] as String,
+    );
 
 Map<String, dynamic> _$CountryInfoToJson(CountryInfo instance) =>
-    <String, dynamic>{'id': instance.id};
+    <String, dynamic>{
+      'id': instance.id,
+    };
 
-Method _$MethodFromJson(Map<String, dynamic> json) => Method(
-  id: json['id'] as String,
-  method: json['method'] as String,
-  fajrAngle: (json['fajrAngle'] as num).toDouble(),
-  ishaAngle: (json['ishaAngle'] as num?)?.toDouble(),
-  ishaInterval: (json['ishaInterval'] as num).toInt(),
-  maghribAngle: (json['maghribAngle'] as num?)?.toDouble(),
-  madhab: $enumDecode(_$MadhabEnumMap, json['madhab']),
-  highLatitudeRule: $enumDecode(
-    _$HighLatitudeRuleEnumMap,
-    json['highLatitudeRule'],
-  ),
-  adjustments: Adjustments.fromJson(
-    json['adjustments'] as Map<String, dynamic>,
-  ),
-  methodAdjustments: Adjustments.fromJson(
-    json['methodAdjustments'] as Map<String, dynamic>,
-  ),
-);
+SalahCalculationMethod _$SalahCalculationMethodFromJson(
+        Map<String, dynamic> json) =>
+    SalahCalculationMethod(
+      id: json['id'] as String,
+      method: json['method'] as String,
+      fajrAngle: (json['fajrAngle'] as num).toDouble(),
+      ishaAngle: (json['ishaAngle'] as num?)?.toDouble(),
+      ishaInterval: (json['ishaInterval'] as num).toInt(),
+      maghribAngle: (json['maghribAngle'] as num?)?.toDouble(),
+      madhab: $enumDecode(_$MadhabEnumMap, json['madhab']),
+      highLatitudeRule:
+          $enumDecode(_$HighLatitudeRuleEnumMap, json['highLatitudeRule']),
+      adjustments:
+          Adjustments.fromJson(json['adjustments'] as Map<String, dynamic>),
+      methodAdjustments: Adjustments.fromJson(
+          json['methodAdjustments'] as Map<String, dynamic>),
+      customized: json['customized'] as bool? ?? false,
+    );
 
-Map<String, dynamic> _$MethodToJson(Method instance) => <String, dynamic>{
-  'id': instance.id,
-  'method': instance.method,
-  'fajrAngle': instance.fajrAngle,
-  'ishaAngle': instance.ishaAngle,
-  'ishaInterval': instance.ishaInterval,
-  'maghribAngle': instance.maghribAngle,
-  'madhab': _$MadhabEnumMap[instance.madhab]!,
-  'highLatitudeRule': _$HighLatitudeRuleEnumMap[instance.highLatitudeRule]!,
-  'adjustments': instance.adjustments,
-  'methodAdjustments': instance.methodAdjustments,
-};
+Map<String, dynamic> _$SalahCalculationMethodToJson(
+        SalahCalculationMethod instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'method': instance.method,
+      'customized': instance.customized,
+      'fajrAngle': instance.fajrAngle,
+      'ishaAngle': instance.ishaAngle,
+      'ishaInterval': instance.ishaInterval,
+      'maghribAngle': instance.maghribAngle,
+      'madhab': _$MadhabEnumMap[instance.madhab]!,
+      'highLatitudeRule': _$HighLatitudeRuleEnumMap[instance.highLatitudeRule]!,
+      'adjustments': instance.adjustments,
+      'methodAdjustments': instance.methodAdjustments,
+    };
 
 const _$HighLatitudeRuleEnumMap = {
   HighLatitudeRule.none: 'none',
@@ -158,7 +164,8 @@ SalahTimeConfig _$SalahTimeConfigFromJson(Map<String, dynamic> json) =>
           .map((e) => $enumDecode(_$HighLatitudeRuleEnumMap, e))
           .toList(),
       methods: (json['methods'] as List<dynamic>)
-          .map((e) => Method.fromJson(e as Map<String, dynamic>))
+          .map(
+              (e) => SalahCalculationMethod.fromJson(e as Map<String, dynamic>))
           .toList(),
       config: (json['config'] as List<dynamic>)
           .map((e) => CountryConfig.fromJson(e as Map<String, dynamic>))

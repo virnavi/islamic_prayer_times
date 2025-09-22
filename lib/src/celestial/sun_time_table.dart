@@ -13,6 +13,7 @@ class SunTimeTable {
   final DateTimeRange sunrise;
   final DateTimeRange sunset;
   final DateTimeRange goldenHour;
+
   //final DateTimeRange moon;
 
   const SunTimeTable._({
@@ -26,22 +27,26 @@ class SunTimeTable {
     required this.nauticalDusk,
     required this.night,
     required this.goldenHour,
-  //  required this.moon,
+    //  required this.moon,
   });
 
-  factory SunTimeTable.calculate(DateTime dateTime, LatLng latLng) {
+  factory SunTimeTable.calculate({
+    required DateTime dateTime,
+    required double latitude,
+    required double longitude,
+  }) {
     final timetable = SunCalculator.getTimes(
       dateTime.toUtc(),
-      latLng.latitude,
-      latLng.longitude,
+      latitude,
+      longitude,
     );
-    final moonTimetable = SunCalculator.getMoonTimes(
+    /*final moonTimetable = SunCalculator.getMoonTimes(
       DateTime.now(),
-      latLng.latitude,
-      latLng.longitude,
+      latitude,
+      longitude,
       inUTC: true,
     );
-
+*/
     final empty = DateTime.fromMillisecondsSinceEpoch(0);
     print(timetable);
     return SunTimeTable._(
@@ -67,7 +72,7 @@ class SunTimeTable {
         from: timetable['sunsetStart'] ?? empty,
         to: timetable['sunset'] ?? empty,
       ),
-     /* moon: DateTimeRange(
+      /* moon: DateTimeRange(
         from: moonTimetable['rise'] ?? empty,
         to: moonTimetable['set'] ?? empty,
       ),*/
