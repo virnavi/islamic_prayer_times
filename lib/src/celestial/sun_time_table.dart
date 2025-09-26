@@ -1,22 +1,67 @@
-import 'models/date_time_range.dart';
-import 'models/lat_lng.dart';
+import 'package:flutter/material.dart';
+import 'package:json_annotation/json_annotation.dart';
+
+import '../helper/date_time_helper.dart';
 import 'sun_calculator.dart';
 
+part 'sun_time_table.g.dart';
+
+@JsonSerializable(explicitToJson: true)
 class SunTimeTable {
+  @JsonKey(
+    fromJson: DateTimeHelper.fromJson,
+    toJson: DateTimeHelper.toJson,
+  )
   final DateTime solarNoon;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromJson,
+    toJson: DateTimeHelper.toJson,
+  )
   final DateTime nadir;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromJson,
+    toJson: DateTimeHelper.toJson,
+  )
   final DateTime dawn;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromJson,
+    toJson: DateTimeHelper.toJson,
+  )
   final DateTime dusk;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromJson,
+    toJson: DateTimeHelper.toJson,
+  )
   final DateTime nauticalDawn;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromJson,
+    toJson: DateTimeHelper.toJson,
+  )
   final DateTime nauticalDusk;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromRangeJson,
+    toJson: DateTimeHelper.toRangeJson,
+  )
   final DateTimeRange night;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromRangeJson,
+    toJson: DateTimeHelper.toRangeJson,
+  )
   final DateTimeRange sunrise;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromRangeJson,
+    toJson: DateTimeHelper.toRangeJson,
+  )
   final DateTimeRange sunset;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromRangeJson,
+    toJson: DateTimeHelper.toRangeJson,
+  )
   final DateTimeRange goldenHour;
 
   //final DateTimeRange moon;
 
-  const SunTimeTable._({
+  const SunTimeTable({
     required this.solarNoon,
     required this.nadir,
     required this.sunrise,
@@ -49,7 +94,7 @@ class SunTimeTable {
 */
     final empty = DateTime.fromMillisecondsSinceEpoch(0);
     print(timetable);
-    return SunTimeTable._(
+    return SunTimeTable(
       solarNoon: timetable['solarNoon'] ?? empty,
       nadir: timetable['nadir'] ?? empty,
       dawn: timetable['dawn'] ?? empty,
@@ -57,20 +102,20 @@ class SunTimeTable {
       nauticalDawn: timetable['nauticalDawn'] ?? empty,
       nauticalDusk: timetable['nauticalDusk'] ?? empty,
       sunrise: DateTimeRange(
-        from: timetable['sunrise'] ?? empty,
-        to: timetable['sunriseEnd'] ?? empty,
+        start: timetable['sunrise'] ?? empty,
+        end: timetable['sunriseEnd'] ?? empty,
       ),
       night: DateTimeRange(
-        from: timetable['night'] ?? empty,
-        to: timetable['nightEnd'] ?? empty,
+        start: timetable['night'] ?? empty,
+        end: timetable['nightEnd'] ?? empty,
       ),
       goldenHour: DateTimeRange(
-        from: timetable['goldenHour'] ?? empty,
-        to: timetable['goldenHourEnd'] ?? empty,
+        start: timetable['goldenHour'] ?? empty,
+        end: timetable['goldenHourEnd'] ?? empty,
       ),
       sunset: DateTimeRange(
-        from: timetable['sunsetStart'] ?? empty,
-        to: timetable['sunset'] ?? empty,
+        start: timetable['sunsetStart'] ?? empty,
+        end: timetable['sunset'] ?? empty,
       ),
       /* moon: DateTimeRange(
         from: moonTimetable['rise'] ?? empty,

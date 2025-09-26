@@ -33,7 +33,7 @@ class SalahTimeCalculator {
           date, latitude, longitude, method.ishaAngle!,
           ishan: true);
     } else {
-      isha = sunTimetable.sunset.to
+      isha = sunTimetable.sunset.end
           .add(Duration(minutes: method.ishaInterval ?? 90));
     }
 
@@ -43,7 +43,7 @@ class SalahTimeCalculator {
           date, latitude, longitude, method.maghribAngle!,
           ishan: true);
     } else {
-      maghrib = sunTimetable.sunset.to;
+      maghrib = sunTimetable.sunset.end;
     }
 
     final dhuhr = sunTimetable.solarNoon;
@@ -51,7 +51,7 @@ class SalahTimeCalculator {
         _calculateAsrTime(date, latitude, longitude, madhab: madhabValue);
 
     return SalahTimes(
-      fajr: DateTimeRange(start: fajr, end: sunTimetable.sunrise.from),
+      fajr: DateTimeRange(start: fajr, end: sunTimetable.sunrise.start),
       dhuhr: DateTimeRange(start: dhuhr, end: asr),
       asr: DateTimeRange(start: asr, end: maghrib),
       maghrib: DateTimeRange(start: maghrib, end: isha),
@@ -60,7 +60,7 @@ class SalahTimeCalculator {
           start: isha.add(const Duration(hours: 1)),
           end: fajr.add(const Duration(days: 1))),
       duha: DateTimeRange(
-          start: sunTimetable.sunrise.to.add(const Duration(minutes: 20)),
+          start: sunTimetable.sunrise.end.add(const Duration(minutes: 20)),
           end: dhuhr),
       awwabin: DateTimeRange(
           start: maghrib.add(const Duration(minutes: 20)), end: isha),
