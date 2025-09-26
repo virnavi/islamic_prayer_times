@@ -69,6 +69,13 @@ class SalahTimes {
     required this.tahajjud,
   });
 
+
+  factory SalahTimes.fromJson(Map<String, Object?> json) =>
+      _$SalahTimesFromJson(json);
+
+  @override
+  Map<String, Object?> toJson() => _$SalahTimesToJson(this);
+
   static Future<SalahTimes> calculate({
     required DateTime date,
     required double latitude,

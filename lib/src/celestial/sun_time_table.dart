@@ -75,6 +75,13 @@ class SunTimeTable {
     //  required this.moon,
   });
 
+
+  factory SunTimeTable.fromJson(Map<String, Object?> json) =>
+      _$SunTimeTableFromJson(json);
+
+  @override
+  Map<String, Object?> toJson() => _$SunTimeTableToJson(this);
+  
   factory SunTimeTable.calculate({
     required DateTime dateTime,
     required double latitude,
