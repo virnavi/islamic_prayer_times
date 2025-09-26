@@ -49,6 +49,16 @@ class SunTimeTable {
   )
   final DateTime nightStart;
   @JsonKey(
+    fromJson: DateTimeHelper.fromJson,
+    toJson: DateTimeHelper.toJson,
+  )
+  final DateTime goldenHourEnd;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromJson,
+    toJson: DateTimeHelper.toJson,
+  )
+  final DateTime goldenHourStart;
+  @JsonKey(
     fromJson: DateTimeHelper.fromRangeJson,
     toJson: DateTimeHelper.toRangeJson,
   )
@@ -58,11 +68,6 @@ class SunTimeTable {
     toJson: DateTimeHelper.toRangeJson,
   )
   final DateTimeRange sunset;
-  @JsonKey(
-    fromJson: DateTimeHelper.fromRangeJson,
-    toJson: DateTimeHelper.toRangeJson,
-  )
-  final DateTimeRange goldenHour;
 
   //final DateTimeRange moon;
 
@@ -77,7 +82,8 @@ class SunTimeTable {
     required this.nauticalDusk,
     required this.nightEnd,
     required this.nightStart,
-    required this.goldenHour,
+    required this.goldenHourStart,
+    required this.goldenHourEnd,
     //  required this.moon,
   });
 
@@ -125,10 +131,8 @@ class SunTimeTable {
       ),
       nightEnd: timetable['nightEnd'] ?? empty,
       nightStart: timetable['night'] ?? empty,
-      goldenHour: DateTimeRange(
-        start: timetable['goldenHour'] ?? empty,
-        end: timetable['goldenHourEnd'] ?? empty,
-      ),
+      goldenHourStart: timetable['goldenHour'] ?? empty,
+      goldenHourEnd: timetable['goldenHourEnd'] ?? empty,
       sunset: DateTimeRange(
         start: timetable['sunsetStart'] ?? empty,
         end: timetable['sunset'] ?? empty,
