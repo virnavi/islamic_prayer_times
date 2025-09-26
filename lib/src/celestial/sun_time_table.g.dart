@@ -19,8 +19,8 @@ SunTimeTable _$SunTimeTableFromJson(Map<String, dynamic> json) => SunTimeTable(
           DateTimeHelper.fromJson((json['nauticalDawn'] as num).toInt()),
       nauticalDusk:
           DateTimeHelper.fromJson((json['nauticalDusk'] as num).toInt()),
-      night:
-          DateTimeHelper.fromRangeJson(json['night'] as Map<String, dynamic>),
+      nightEnd: DateTimeHelper.fromJson((json['nightEnd'] as num).toInt()),
+      nightStart: DateTimeHelper.fromJson((json['nightStart'] as num).toInt()),
       goldenHour: DateTimeHelper.fromRangeJson(
           json['goldenHour'] as Map<String, dynamic>),
     );
@@ -33,7 +33,8 @@ Map<String, dynamic> _$SunTimeTableToJson(SunTimeTable instance) =>
       'dusk': DateTimeHelper.toJson(instance.dusk),
       'nauticalDawn': DateTimeHelper.toJson(instance.nauticalDawn),
       'nauticalDusk': DateTimeHelper.toJson(instance.nauticalDusk),
-      'night': DateTimeHelper.toRangeJson(instance.night),
+      'nightEnd': DateTimeHelper.toJson(instance.nightEnd),
+      'nightStart': DateTimeHelper.toJson(instance.nightStart),
       'sunrise': DateTimeHelper.toRangeJson(instance.sunrise),
       'sunset': DateTimeHelper.toRangeJson(instance.sunset),
       'goldenHour': DateTimeHelper.toRangeJson(instance.goldenHour),

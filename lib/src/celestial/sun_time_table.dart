@@ -39,10 +39,15 @@ class SunTimeTable {
   )
   final DateTime nauticalDusk;
   @JsonKey(
-    fromJson: DateTimeHelper.fromRangeJson,
-    toJson: DateTimeHelper.toRangeJson,
+    fromJson: DateTimeHelper.fromJson,
+    toJson: DateTimeHelper.toJson,
   )
-  final DateTimeRange night;
+  final DateTime nightEnd;
+  @JsonKey(
+    fromJson: DateTimeHelper.fromJson,
+    toJson: DateTimeHelper.toJson,
+  )
+  final DateTime nightStart;
   @JsonKey(
     fromJson: DateTimeHelper.fromRangeJson,
     toJson: DateTimeHelper.toRangeJson,
@@ -70,18 +75,24 @@ class SunTimeTable {
     required this.dusk,
     required this.nauticalDawn,
     required this.nauticalDusk,
-    required this.night,
+    required this.nightEnd,
+    required this.nightStart,
     required this.goldenHour,
     //  required this.moon,
   });
 
+  DateTimeRange get yesterdayNight => DateTimeRange(
+      start: nightStart.add(const Duration(days: -1)), end: nightEnd);
+
+  DateTimeRange get tonight => DateTimeRange(
+      start: nightStart, end: nightEnd.add(const Duration(days: 1)));
 
   factory SunTimeTable.fromJson(Map<String, Object?> json) =>
       _$SunTimeTableFromJson(json);
 
   @override
   Map<String, Object?> toJson() => _$SunTimeTableToJson(this);
-  
+
   factory SunTimeTable.calculate({
     required DateTime dateTime,
     required double latitude,
@@ -112,10 +123,8 @@ class SunTimeTable {
         start: timetable['sunrise'] ?? empty,
         end: timetable['sunriseEnd'] ?? empty,
       ),
-      night: DateTimeRange(
-        start: timetable['night'] ?? empty,
-        end: timetable['nightEnd'] ?? empty,
-      ),
+      nightEnd: timetable['nightEnd'] ?? empty,
+      nightStart: timetable['night'] ?? empty,
       goldenHour: DateTimeRange(
         start: timetable['goldenHour'] ?? empty,
         end: timetable['goldenHourEnd'] ?? empty,
