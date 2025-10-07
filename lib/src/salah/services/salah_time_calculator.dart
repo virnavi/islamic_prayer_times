@@ -25,7 +25,7 @@ class SalahTimeCalculator {
     );
 
     final fajr =
-        _calculateTimeForAngle(date, latitude, longitude, method.fajrAngle);
+    _calculateTimeForAngle(date, latitude, longitude, method.fajrAngle);
 
     DateTime isha;
     if (method.ishaAngle != null) {
@@ -48,7 +48,7 @@ class SalahTimeCalculator {
 
     final dhuhr = sunTimetable.solarNoon;
     final asr =
-        _calculateAsrTime(date, latitude, longitude, madhab: madhabValue);
+    _calculateAsrTime(date, latitude, longitude, madhab: madhabValue);
 
     return SalahTimes(
       fajr: DateTimeRange(start: fajr, end: sunTimetable.sunrise.start),
@@ -65,12 +65,13 @@ class SalahTimeCalculator {
       awwabin: DateTimeRange(
           start: maghrib.add(const Duration(minutes: 20)), end: isha),
       tahajjud: DateTimeRange(
-          start: sunTimetable.nadir, end: fajr.add(const Duration(days: 1))),
+          start: sunTimetable.nadir.add(const Duration(days: 1)),
+          end: fajr.add(const Duration(days: 1))),
     );
   }
 
-  static DateTime _calculateTimeForAngle(
-      DateTime date, double latitude, double longitude, double angle,
+  static DateTime _calculateTimeForAngle(DateTime date, double latitude,
+      double longitude, double angle,
       {bool ishan = false}) {
     final jday = _getJulianDay(date);
     final jcentury = (jday - 2451545.0) / 36525.0;
@@ -81,7 +82,7 @@ class SalahTimeCalculator {
         357.52911 + jcentury * (35999.05029 - 0.0001537 * jcentury);
 
     final sunEq = sin(_degToRad(meanAnomaly)) *
-            (1.914602 - jcentury * (0.004817 + 0.000014 * jcentury)) +
+        (1.914602 - jcentury * (0.004817 + 0.000014 * jcentury)) +
         sin(_degToRad(2 * meanAnomaly)) * (0.019993 - 0.000101 * jcentury) +
         sin(_degToRad(3 * meanAnomaly)) * 0.000289;
 
@@ -91,16 +92,16 @@ class SalahTimeCalculator {
         0.00478 * sin(_degToRad(125.04 - 1934.136 * jcentury));
     final meanObliquity = 23.0 +
         (26.0 +
-                (21.448 -
-                        jcentury *
-                            (46.815 +
-                                jcentury * (0.00059 - jcentury * 0.001813))) /
-                    60.0) /
+            (21.448 -
+                jcentury *
+                    (46.815 +
+                        jcentury * (0.00059 - jcentury * 0.001813))) /
+                60.0) /
             60.0;
     final obliquity =
         meanObliquity + 0.00256 * cos(_degToRad(125.04 - 1934.136 * jcentury));
     final declination =
-        _radToDeg(asin(sin(_degToRad(obliquity)) * sin(_degToRad(sunAppLong))));
+    _radToDeg(asin(sin(_degToRad(obliquity)) * sin(_degToRad(sunAppLong))));
 
     final eccent =
         0.016708634 - jcentury * (0.000042037 + 0.0000001267 * jcentury);
@@ -118,7 +119,7 @@ class SalahTimeCalculator {
             1.25 * eccent * eccent * sin(2 * _degToRad(meanAnomaly)));
 
     final ha = _radToDeg(acos((sin(_degToRad(-angle)) -
-            sin(_degToRad(latitude)) * sin(_degToRad(declination))) /
+        sin(_degToRad(latitude)) * sin(_degToRad(declination))) /
         (cos(_degToRad(latitude)) * cos(_degToRad(declination)))));
 
     final solarNoon = (720 - 4 * longitude - eqOfTime) / 1440;
@@ -127,8 +128,8 @@ class SalahTimeCalculator {
     return _getDateTime(date, time);
   }
 
-  static DateTime _calculateAsrTime(
-      DateTime date, double latitude, double longitude,
+  static DateTime _calculateAsrTime(DateTime date, double latitude,
+      double longitude,
       {int madhab = 1}) {
     final jday = _getJulianDay(date);
     final jcentury = (jday - 2451545.0) / 36525.0;
@@ -139,7 +140,7 @@ class SalahTimeCalculator {
         357.52911 + jcentury * (35999.05029 - 0.0001537 * jcentury);
 
     final sunEq = sin(_degToRad(meanAnomaly)) *
-            (1.914602 - jcentury * (0.004817 + 0.000014 * jcentury)) +
+        (1.914602 - jcentury * (0.004817 + 0.000014 * jcentury)) +
         sin(_degToRad(2 * meanAnomaly)) * (0.019993 - 0.000101 * jcentury) +
         sin(_degToRad(3 * meanAnomaly)) * 0.000289;
 
@@ -149,16 +150,16 @@ class SalahTimeCalculator {
         0.00478 * sin(_degToRad(125.04 - 1934.136 * jcentury));
     final meanObliquity = 23.0 +
         (26.0 +
-                (21.448 -
-                        jcentury *
-                            (46.815 +
-                                jcentury * (0.00059 - jcentury * 0.001813))) /
-                    60.0) /
+            (21.448 -
+                jcentury *
+                    (46.815 +
+                        jcentury * (0.00059 - jcentury * 0.001813))) /
+                60.0) /
             60.0;
     final obliquity =
         meanObliquity + 0.00256 * cos(_degToRad(125.04 - 1934.136 * jcentury));
     final declination =
-        _radToDeg(asin(sin(_degToRad(obliquity)) * sin(_degToRad(sunAppLong))));
+    _radToDeg(asin(sin(_degToRad(obliquity)) * sin(_degToRad(sunAppLong))));
 
     final eccent =
         0.016708634 - jcentury * (0.000042037 + 0.0000001267 * jcentury);
@@ -177,7 +178,7 @@ class SalahTimeCalculator {
     final asrAlt = _radToDeg(
         atan(1 / (madhab + tan(_degToRad(latitude - declination).abs()))));
     final ha = _radToDeg(acos((sin(_degToRad(asrAlt)) -
-            sin(_degToRad(latitude)) * sin(_degToRad(declination))) /
+        sin(_degToRad(latitude)) * sin(_degToRad(declination))) /
         (cos(_degToRad(latitude)) * cos(_degToRad(declination)))));
 
     final solarNoon = (720 - 4 * longitude - eqOfTime) / 1440;

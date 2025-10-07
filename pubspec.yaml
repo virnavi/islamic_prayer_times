@@ -1,6 +1,6 @@
 name: islamic_prayer_times
 description: "Islamic Prayer Times with Default Country Country Config"
-version: 0.1.4
+version: 0.1.5
 homepage:
 
 environment:
